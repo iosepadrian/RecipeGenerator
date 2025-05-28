@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ReceipeGenerator</string>
+    <string name="base_prompt">Please generate exactly 3 recipes related to %1$s as a JSON array. Each recipe has a "title", "preparation", "duration", and "ingredients" field. Return only valid JSON, nothing else.
+Please return random recipes everytime
+
+Example:
+
+[
+  {
+    "title": "Spaghetti Carbonara",
+    "preparation": "Boil pasta. In a separate pan, cook pancetta, then mix with eggs and cheese. Combine everything together.",
+    "duration": "25",
+    "ingredients": ["spaghetti", "pancetta", "eggs", "parmesan cheese", "black pepper"]
+  },
+  {
+    "title": "Greek Salad",
+    "preparation": "Chop all vegetables, mix in a bowl, and top with feta and olives. Drizzle with olive oil and lemon juice.",
+    "duration": "10",
+    "ingredients": ["tomatoes", "cucumber", "red onion", "feta cheese", "olives", "olive oil", "lemon juice"]
+  },
+  {
+    "title": "Chicken Stir Fry",
+    "preparation": "Slice chicken and vegetables, stir fry in a hot pan with soy sauce and garlic until cooked.",
+    "duration": "20",
+    "ingredients": ["chicken breast", "bell peppers", "soy sauce", "garlic", "onion", "vegetable oil"]
+  }
+]
+
+Now generate your response:</string>
+  <string name="query_question">What do you feel like eating?</string>
+  <string name="suggested_recipe">Suggested recipes</string>
+  <string name="ingredients">Ingredients:</string>
+  <string name="instructions">Instructions:</string>
+  <string name="recipe_image_content_description">Recipe Image</string>
+  <string name="favorite">Favorite</string>
+  <string name="back">Back</string>
+  <string name="duration">%1$s min</string>
+  <string name="you_favorite_recipes">Your Favorite Recipes</string>
+  <string name="view_favorites">View Favorites</string>
+  <string name="dislike_text">I don\'t like this</string>
+</resources>
